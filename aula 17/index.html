@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 17</title>
+</head>
+
+<style>
+
+</style>
+
+<body>
+
+<div>
+    <h1>formulário de contato</h1>
+</div>
+
+    <section class="formulario">
+<form action="mailto:hehemi@hotmail.com" method="post">
+            <span>Nome:</span>
+            <input type="text"> <br>
+            <span>Email:</span> 
+            <input type="email"> <br>
+            <span>Telefone</span>
+            <input type="tel"> <br>
+            <span>Comentário</span>
+            <textarea name="comentarios" id="comentário" rows="10" cols="50"> </textarea> <br>
+            <span>Data Nascimento</span>
+            <input type="date" name="date" id="time"> <br>
+            <span>Visita</span>
+            <input type="time" name="time" id="time"> <br>
+            <span>Deseja receber contato</span> <br>
+            <input id="yes" name="contato" type="radio" value="Sim">sim</input> <br>
+            <input id="no" name="contato" type="radio" value="Não">não</input> <br>
+            <span>Assunto a receber</span> <br>
+            <input type="checkbox" name="checkbox" id="checkbox1" value="auto"> Automóvel <br>
+            <input type="checkbox" name="checkbox" id="checkbox2" value="negocio"> Negócios <br>
+            <input type="checkbox" name="checkbox" id="checkbox3" value="esporte"> Esporte <br>
+            <span>O que mais gostou?</span>
+            <select name="selecionar" id="selecionar">
+                <option value="GVitoria">Grande Vitória</option>
+                <option value="VV">Vila Velha</option>
+                <option value="Guarapa">Guarapari</option>
+            </select>
+            <div class="botoes">
+                <input type="submit" id="enviar" value="enviar">
+                <input type="reset" id="limpar" value="limpar">
+                <button>voltar</button>
+            </div>
+
+</form>
+    </section>
+
+</body>
+</html>
